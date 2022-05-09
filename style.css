@@ -40,6 +40,18 @@ button {
     text-transform: uppercase;
 }
 
+.popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.432);
+    color: rgba(255, 255, 255, 0.836);
+    border-radius: 6px;
+    opacity: 0;
+}
+
 @media screen and (max-width: 1000px) {
     .btnContainer {
         display: flex;
